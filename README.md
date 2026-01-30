@@ -73,43 +73,65 @@ Leitura técnica:
 Apesar da baixa volatilidade recente, o ativo apresentou queda relevante no curto prazo, indicando um movimento de correção ou realização de lucros, sem sinais de estresse elevado no preço. A combinação de retorno negativo com volatilidade contida sugere pressão vendedora gradual, não pânico.
 
 2. Resultados (Earnings) – Qualidade do lucro
-
-(tabela mantida)
+Histórico recente de EPS (últimos 4 trimestres)
+Período	EPS Real	Estimativa	Surpresa	Surpresa %
+2025-12-31 (Q1/2026)	2,84	2,73	+0,11	+4,19%
+2025-09-30 (Q4/2025)	1,85	1,81	+0,04	+2,35%
+2025-06-30 (Q3/2025)	1,57	1,46	+0,11	+7,34%
+2025-03-31 (Q2/2025)	1,65	1,66	-0,01	-0,58%
 
 Leitura fundamentalista:
 
-3 de 4 trimestres com surpresa positiva, indicando boa execução operacional
+3 de 4 trimestres com surpresa positiva, sendo duas acima de 4%, o que indica boa execução operacional.
 
-O único trimestre negativo foi marginal
+O único trimestre negativo foi marginal, sem impacto material.
 
-Consistência na superação de expectativas, especialmente nos períodos recentes
+Há consistência na superação de expectativas, especialmente nos períodos mais recentes.
 
 3. Tendências observáveis
 
-Fundamental: entrega consistente de resultados
+Fundamental:
 
-Preço: desalinhamento de curto prazo
+Tendência positiva na previsibilidade e entrega de resultados, com EPS acima do consenso na maior parte do período.
 
-Risco implícito: possível ajuste de múltiplos ou antecipação de desaceleração
+Preço:
 
-4. Principais riscos identificáveis
+Desalinhamento de curto prazo entre fundamentos (bons resultados) e preço (retorno negativo em 21 dias).
 
-Continuidade da correção no curto prazo
+Risco implícito:
 
-Expectativas já elevadas embutidas no preço
+O mercado pode estar antecipando desaceleração futura, ajustando múltiplos, ou reagindo a fatores externos não refletidos no payload (ex.: macro, valuation).
 
-Possível aumento abrupto de volatilidade caso a narrativa mude
+4. Principais riscos identificáveis (com base nos dados)
 
-5. Síntese técnica
+Risco de curto prazo:
 
-Fundamentos: sólidos
+Continuidade da correção caso o preço siga pressionado mesmo com resultados sólidos.
 
-Preço: em correção
+Risco de valuation implícito:
 
-Contexto: ajuste de expectativas, não deterioração estrutural
+A queda recente após sucessivas surpresas positivas pode indicar expectativas já muito elevadas, reduzindo o espaço para novas reprecificações positivas.
 
-Análise gerada automaticamente a partir de payload estruturado. Não constitui recomendação de investimento.
+Risco de assimetria:
 
+Com volatilidade baixa, movimentos futuros podem ser mais abruptos caso haja mudança de narrativa.
+
+5. Conclusão técnica
+
+Fundamentos recentes: Sólidos e consistentes, com recorrentes surpresas positivas de lucro.
+
+Preço no curto prazo: Em correção, sem aumento relevante de volatilidade.
+
+Contexto geral:
+
+O ativo apresenta qualidade operacional, porém enfrenta pressão de mercado no curto prazo, sugerindo um momento de ajuste e não de deterioração fundamental.
+
+Resumo:
+
+AAPL mostra boa execução financeira, mas o mercado parece estar reprecificando expectativas, criando um descompasso temporário entre preço e fundamentos.
+
+
+---
 </details>
 
 
