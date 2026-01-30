@@ -51,6 +51,68 @@ O modelo **não inventa dados**: ele apenas interpreta e contextualiza o payload
 
 ---
 
+
+🧠 Exemplo de Saída Gerada pelo Modelo
+
+Abaixo está um exemplo real de análise produzida pelo pipeline, a partir de dados estruturados (JSON) e interpretados pelo LLM sem invenção de informações:
+
+<details> <summary><strong>📄 Exemplo – Análise Financeira (AAPL)</strong></summary> <br>
+
+Análise Financeira – Apple Inc. (AAPL)
+Baseada exclusivamente no payload fornecido
+
+1. Preço e comportamento recente
+
+Último fechamento: 258,28
+
+Retorno em 21 dias: -5,65%
+
+Volatilidade 21 dias: 1,23%
+
+Leitura técnica:
+Apesar da baixa volatilidade recente, o ativo apresentou queda relevante no curto prazo, indicando um movimento de correção ou realização de lucros, sem sinais de estresse elevado no preço. A combinação de retorno negativo com volatilidade contida sugere pressão vendedora gradual, não pânico.
+
+2. Resultados (Earnings) – Qualidade do lucro
+
+(tabela mantida)
+
+Leitura fundamentalista:
+
+3 de 4 trimestres com surpresa positiva, indicando boa execução operacional
+
+O único trimestre negativo foi marginal
+
+Consistência na superação de expectativas, especialmente nos períodos recentes
+
+3. Tendências observáveis
+
+Fundamental: entrega consistente de resultados
+
+Preço: desalinhamento de curto prazo
+
+Risco implícito: possível ajuste de múltiplos ou antecipação de desaceleração
+
+4. Principais riscos identificáveis
+
+Continuidade da correção no curto prazo
+
+Expectativas já elevadas embutidas no preço
+
+Possível aumento abrupto de volatilidade caso a narrativa mude
+
+5. Síntese técnica
+
+Fundamentos: sólidos
+
+Preço: em correção
+
+Contexto: ajuste de expectativas, não deterioração estrutural
+
+Análise gerada automaticamente a partir de payload estruturado. Não constitui recomendação de investimento.
+
+</details>
+
+
 ## 🔐 Segurança e Uso de API Keys
 
 Este projeto **NÃO expõe credenciais**.
