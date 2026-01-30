@@ -52,83 +52,93 @@ O modelo **não inventa dados**: ele apenas interpreta e contextualiza o payload
 ---
 
 
-🧠 Exemplo de Saída Gerada pelo Modelo
+🧠 Exemplo de Saída Gerada pelo Pipeline
 
 Abaixo está um exemplo real de análise produzida pelo pipeline, a partir de dados estruturados (JSON) e interpretados pelo LLM sem invenção de informações:
 
 <details> <summary><strong>📄 Exemplo – Análise Financeira (AAPL)</strong></summary> <br>
 
-Análise Financeira – Apple Inc. (AAPL)
-Baseada exclusivamente no payload fornecido
+## 📊 Análise Financeira – Apple Inc. (AAPL)
+*Baseada exclusivamente no payload fornecido*
 
-1. Preço e comportamento recente
+---
 
-Último fechamento: 258,28
+### 🔹 1. Preço e comportamento recente
 
-Retorno em 21 dias: -5,65%
+- **Último fechamento:** **258,28**
+- **Retorno em 21 dias:** **-5,65%**
+- **Volatilidade (21 dias):** **1,23%**
 
-Volatilidade 21 dias: 1,23%
+**Leitura técnica:**  
+Apesar da **baixa volatilidade recente**, o ativo apresentou **queda relevante no curto prazo**, indicando um movimento de **correção ou realização de lucros**, sem sinais de estresse elevado no preço.  
+A combinação de retorno negativo com volatilidade contida sugere **pressão vendedora gradual**, não pânico.
 
-Leitura técnica:
-Apesar da baixa volatilidade recente, o ativo apresentou queda relevante no curto prazo, indicando um movimento de correção ou realização de lucros, sem sinais de estresse elevado no preço. A combinação de retorno negativo com volatilidade contida sugere pressão vendedora gradual, não pânico.
+---
 
-2. Resultados (Earnings) – Qualidade do lucro
-Histórico recente de EPS (últimos 4 trimestres)
-Período	EPS Real	Estimativa	Surpresa	Surpresa %
-2025-12-31 (Q1/2026)	2,84	2,73	+0,11	+4,19%
-2025-09-30 (Q4/2025)	1,85	1,81	+0,04	+2,35%
-2025-06-30 (Q3/2025)	1,57	1,46	+0,11	+7,34%
-2025-03-31 (Q2/2025)	1,65	1,66	-0,01	-0,58%
+### 🔹 2. Resultados (Earnings) – Qualidade do lucro
 
-Leitura fundamentalista:
+**Histórico recente de EPS (últimos 4 trimestres):**
 
-3 de 4 trimestres com surpresa positiva, sendo duas acima de 4%, o que indica boa execução operacional.
+| Período              | EPS Real | Estimativa | Surpresa | Surpresa % |
+| -------------------- | -------- | ---------- | -------- | ---------- |
+| 2025-12-31 (Q1/2026) | 2,84     | 2,73       | **+0,11** | **+4,19%** |
+| 2025-09-30 (Q4/2025) | 1,85     | 1,81       | **+0,04** | +2,35%     |
+| 2025-06-30 (Q3/2025) | 1,57     | 1,46       | **+0,11** | **+7,34%** |
+| 2025-03-31 (Q2/2025) | 1,65     | 1,66       | -0,01    | -0,58%     |
 
-O único trimestre negativo foi marginal, sem impacto material.
+**Leitura fundamentalista:**
 
-Há consistência na superação de expectativas, especialmente nos períodos mais recentes.
+- **3 de 4 trimestres com surpresa positiva**, sendo **duas acima de 4%**, indicando **boa execução operacional**
+- O único trimestre negativo foi **marginal**, sem impacto material
+- Há **consistência na superação de expectativas**, especialmente nos períodos mais recentes
 
-3. Tendências observáveis
+---
 
-Fundamental:
+### 🔹 3. Tendências observáveis
 
-Tendência positiva na previsibilidade e entrega de resultados, com EPS acima do consenso na maior parte do período.
+**📈 Fundamental:**  
+Tendência **positiva na previsibilidade e entrega de resultados**, com EPS acima do consenso na maior parte do período.
 
-Preço:
+**💲 Preço:**  
+**Desalinhamento de curto prazo** entre fundamentos (bons resultados) e preço (retorno negativo em 21 dias).
 
-Desalinhamento de curto prazo entre fundamentos (bons resultados) e preço (retorno negativo em 21 dias).
+**⚠️ Risco implícito:**  
+O mercado pode estar **antecipando desaceleração futura**, ajustando múltiplos, ou reagindo a fatores externos não refletidos no payload (ex.: macroeconomia, valuation).
 
-Risco implícito:
+---
 
-O mercado pode estar antecipando desaceleração futura, ajustando múltiplos, ou reagindo a fatores externos não refletidos no payload (ex.: macro, valuation).
+### 🔹 4. Principais riscos identificáveis (com base nos dados)
 
-4. Principais riscos identificáveis (com base nos dados)
+- **Risco de curto prazo:**  
+  Continuidade da correção caso o preço siga pressionado mesmo com resultados sólidos.
 
-Risco de curto prazo:
+- **Risco de valuation implícito:**  
+  A queda recente após sucessivas surpresas positivas pode indicar **expectativas já muito elevadas**, reduzindo o espaço para novas reprecificações positivas.
 
-Continuidade da correção caso o preço siga pressionado mesmo com resultados sólidos.
+- **Risco de assimetria:**  
+  Com volatilidade baixa, movimentos futuros podem ser **mais abruptos** caso haja mudança de narrativa.
 
-Risco de valuation implícito:
+---
 
-A queda recente após sucessivas surpresas positivas pode indicar expectativas já muito elevadas, reduzindo o espaço para novas reprecificações positivas.
+### 🔹 5. Conclusão técnica
 
-Risco de assimetria:
+- **Fundamentos recentes:**  
+  **Sólidos e consistentes**, com recorrentes surpresas positivas de lucro.
 
-Com volatilidade baixa, movimentos futuros podem ser mais abruptos caso haja mudança de narrativa.
+- **Preço no curto prazo:**  
+  **Em correção**, sem aumento relevante de volatilidade.
 
-5. Conclusão técnica
+- **Contexto geral:**  
+  O ativo apresenta **qualidade operacional**, porém enfrenta **pressão de mercado no curto prazo**, sugerindo um momento de **ajuste**, e não de deterioração fundamental.
 
-Fundamentos recentes: Sólidos e consistentes, com recorrentes surpresas positivas de lucro.
+---
 
-Preço no curto prazo: Em correção, sem aumento relevante de volatilidade.
+### 🧾 Resumo
 
-Contexto geral:
+> **AAPL demonstra boa execução financeira**, mas o mercado parece estar **reprecificando expectativas**, criando um **descompasso temporário entre preço e fundamentos**.
 
-O ativo apresenta qualidade operacional, porém enfrenta pressão de mercado no curto prazo, sugerindo um momento de ajuste e não de deterioração fundamental.
-
-Resumo:
-
-AAPL mostra boa execução financeira, mas o mercado parece estar reprecificando expectativas, criando um descompasso temporário entre preço e fundamentos.
+*Análise gerada automaticamente a partir de payload estruturado.  
+Não constitui recomendação de investimento.*
 
 
 ---
