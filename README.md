@@ -1,5 +1,11 @@
 # 📊 Financial Analysis Pipeline with LLM (OpenAI) + Finnhub
 
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-Finance-green?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/BrunoReis136/API_fin_powered_by_OpenAI/blob/main/projeto_fin_gpt.ipynb)
+
+
+
+
 Este projeto demonstra um **pipeline profissional de análise financeira automatizada**, combinando:
 
 * 📈 **Dados de mercado** (API Finnhub)
